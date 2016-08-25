@@ -4,7 +4,6 @@
 apt-get install nginx php5 php5-fpm php5-cli php5-mysql php5-mcrypt
 
 #Install Nginx + PHP
-cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
